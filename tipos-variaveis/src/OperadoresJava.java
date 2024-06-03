@@ -1,20 +1,14 @@
 public class OperadoresJava {
   public static void main(String[] args) {
-    String nomeDois = "LUAN";
-    String nomeUm = new String("LUAN");
+    boolean condicao1 = true;
+    boolean condicao2 = true;
 
-    System.out.println(nomeUm.equals(nomeDois));
-  
-
-    int numero1 = 5;
-    int numero2 = 7;
-
-    if (numero1 == numero2) {
-      System.out.println("a nossa condição é verdadeira");
+    if (condicao1 && (7 > 4)) {
+      System.out.println("As duas condições são verdadeiras");
     }
 
-    if (numero1 < numero2) {
-      System.out.println("numeroUm é menor que numeroDois");
+    if (condicao1 || condicao2) {
+      System.out.println("Pelo menos uma das condições são verdadeiras");
     }
   }
 }
